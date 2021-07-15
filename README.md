@@ -42,6 +42,6 @@ ETL-Project
 3.Load
   
   All of the data was uploaded into a relational database with Postgres. The database had 2 main tables for use: 1) beachlab  2)  beachweather. 
-  Two tables were able to joining and dsplay data correctly.
+  Two tables were able to joining and display data correctly.
    
  
