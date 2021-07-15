@@ -18,7 +18,7 @@ ETL-Project
   This project aims to store below data resources in SQL database in order to measure correlation between bacteria levels found on different beaches and beach temperature         going forward.
   
   
-  1.Extract/Data Utilized
+  1. Extract/Data Utilized
    
     Web resource  
    
@@ -33,12 +33,12 @@ ETL-Project
   Mario's part includes calling CSV data data describing temperature levels on a given beach 
 
 
-2.Transformation
+2. Transformation
 
   Json data extracted used the requests module to get the json from the web source, and it was turned into a dictionary and parsed each row of data into a column                 format in order to be able to load it into a Pandas dataframe. CSV file data extracted by pandas reading the Beach stations weather data into dataframe. Then 2                  postgres tables were automatically created by calling the to_sql method on my Pandas dataframe.
   
 
-3.Load
+3. Load
   
   All of the data was uploaded into a relational database with Postgres. The database had 2 main tables for use: 1) beachlab  2)  beachweather. 
   Two tables were able to joining and dsplay data correctly.
